@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
+  <metadata>
+    <id>WinPopUpPlus</id>
+    <version>1.0.8</version>
+    <authors>ItalPscal</authors>
+    <owners>AliasIaora</owners>
+    <projectUrl>https://github.com/List051/WinPopUpPlus</projectUrl>
+    <license type="expression">MIT</license>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Descrizione: crea PopUp senza utilizzare ToolTip, è sufficiente dichiarare Image e Button. Aggiunto opzione colore Sfondo e Testo</description>
+    <tags>vb.net datagridview database</tags>
+    <readme>README.md</readme>
+    
+    <!-- Specifica che System.Windows.Forms è fornito dal framework -->
+    <frameworkAssemblies>
+      <frameworkAssembly assemblyName="System.Windows.Forms" targetFramework=".NETFramework4.8" />
+    </frameworkAssemblies>
+    
+    <!-- Se per net6.0 non serve dichiararlo, puoi omettere la sezione per .NET Core -->
+  </metadata>
+
+  <files>
+    <!-- Includi la libreria compilata -->
+    <file src="bin\Release\net48\WinPopUpPlus.dll" target="lib/net48/" />
+    <file src="bin\Release\net48\WinPopUpPlus.pdb" target="lib/net48/" />
+    <file src="bin\Release\net6.0\WinPopUpPlus.dll" target="lib/net6.0/" />
+    <file src="bin\Release\net6.0\WinPopUpPlus.pdb" target="lib/net6.0/" />
+    <file src="List051.png" target="" />
+    <!-- Includi i file di documentazione e licenza -->
+    <file src="README.md" target="." />
+    <file src="LICENSE.txt" target="docs/" />
+  </files>
+</package>
