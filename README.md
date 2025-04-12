@@ -1,7 +1,7 @@
 # WinPopUp
 
 WinPopUpPlus è una libreria .NET che permette di associare popup informativi ai controlli di un form Windows Forms.
-Aggiunto opzione colora Sfondo e Testo 
+Aggiunto opzione colora Sfondo e Testo con versione 1.0.8
 
 ## Installazione
 Aggiungi la libreria `WinPopUpPlus.dll` al tuo progetto tramite **Riferimenti**.
