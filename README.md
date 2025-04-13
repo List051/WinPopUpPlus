@@ -23,7 +23,7 @@ Public Class Form1
             PopupHelper.AttachPopup(Button1, "Informazioni utili" & vbCr & "Altre informazioni", imgInfo)
             PopupHelper.AttachPopup(Button2, "Attenzione! Controlla i dati", imgWarning)
 			
-			' Esempio colora Sfondo e Testo
+			' Esempio colora Sfondo e Testo con Cersione 1.0.8
 			 Dim imgEsci As Image = My.Resources.exit_100
 			 PopupHelper.AttachPopup(EsciPicture, "aiuto" & vbCrLf & "Esci dal programma", imgEsci, Color.GreenYellow, Color.Blue)
       
