@@ -3,6 +3,7 @@
 🎬 **Demo Video:** [Guarda su YouTube](https://youtu.be/4EyZb3B9hFM)
 
 WinPopUpPlus è una libreria .NET che permette di associare popup informativi ai controlli di un form Windows Forms.
+
 Aggiunto opzione colora Sfondo e Testo con versione 1.0.8
 
 ## Installazione
